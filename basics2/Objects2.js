@@ -43,9 +43,33 @@ const users = [
 ]
 // console.log(users[1].email)
 // console.log(users[1])
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {        // de-structuring
+    coursename: "js course",
+    price:999,
+    courseId:6161
+}
+// console.log(course.coursename); // for accessing course name we dont have to write this line instead do de-structuring
+const{courseId:myId}=course
+console.log(myId);
+
+// Json Format
+{
+    "name":"Paarth",
+    "coursename":"Js-tutorial",
+    "price":"free"
+}
+// One more representation is 
+
+[
+    {},
+    {},
+    {}
+]
+
 
